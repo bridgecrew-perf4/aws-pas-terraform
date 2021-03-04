@@ -1,5 +1,4 @@
-# Terraforming AWS [![build-status](https://infra.ci.cf-app.com/api/v1/teams/main/pipelines/terraforming-aws/jobs/deploy-pas/badge)](https://infra.ci.cf-app.com/teams/main/pipelines/terraforming-aws)
-
+# Terraforming AWS
 ## What is this?
 
 Set of terraform modules for deploying Ops Manager, PAS and PKS infrastructure requirements like:
@@ -189,7 +188,6 @@ Use `scripts/configure-director` to finish configuration of the director
 ```
 
 *om-password* will be the admin password Ops Man.
-
 ### Tearing down environment
 
 **Note:** This will only destroy resources deployed by Terraform. You will need to clean up anything deployed on top of that infrastructure yourself (e.g. by running `om delete-installation`)
